@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Android study</string>
+    <string name="app_name">My Application</string>
+    <string name="good_morning_text">Good morning!</string>
 </resources>
