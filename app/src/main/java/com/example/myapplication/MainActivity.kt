@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
             binding.geneetingText.text = getString(R.string.good_morning_text)
         }
         binding.afternoonBtn.setOnClickListener {
-            binding.geneetingText.text = getString(R.string.afternoon_text)
+            binding.geneetingText.text = getString(R.string.good_afternoon_text)
         }
         binding.eveningBtn.setOnClickListener {
-            binding.geneetingText.text = getString(R.string.evening_text)
+            binding.geneetingText.text = getString(R.string.good_evening_text)
         }
     }
 }
