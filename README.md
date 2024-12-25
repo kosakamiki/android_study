@@ -51,6 +51,10 @@ Android端末の言語設定に応じた言語で、朝/昼/夜の挨拶を表�
 | 製品名            | Galaxy S20 5G（https://www.docomo.ne.jp/support/product/sc51a/spec.html）|
 |モデル名|SC-51A|
 |ディスプレイ（メイン）|約6.2インチ|
+|画面ピクセル数|1440x3200|
+
+画面ピクセル数参考サイト
+https://www.genz.jp/useful_information/android_size_quickreferencematrix/#galaxy
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
@@ -61,7 +65,8 @@ Android端末の言語設定に応じた言語で、朝/昼/夜の挨拶を表�
     - Windows 11 Home
     - 64 ビット オペレーティング システム、x64 ベース プロセッサ
 - Android Studioバージョン
-    - Android Studio Ladybug | 2024.2.1 Patch 2![alt text](image.png)
+    - Android Studio Ladybug | 2024.2.1 Patch 2!
+    ![image](https://github.com/user-attachments/assets/15108b1c-bfb3-4dce-b23e-c197bc501404)
 
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
