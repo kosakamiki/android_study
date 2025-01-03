@@ -43,7 +43,7 @@ Android端末の言語設定に応じた言語で、朝/昼/夜の挨拶を表�
 | Kotlin| 1.9.24|
 | Java | 23.0.1|
 | Android APIレベル|33|
-| Android APIレベル|13|
+| Android バージョン|13|
 
 
 | 使用端末  | バージョン |
