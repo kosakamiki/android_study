@@ -7,4 +7,5 @@
     <string name="afternoon_text">AfterNoon</string>
     <string name="evening_text">Evening</string>
     <string name="web_view_button_text">WebViewScreen</string>
+    <string name="back_greetings_screen">back to greetings in multiple screen</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -32,8 +33,12 @@ class MainActivity : AppCompatActivity() {
         binding.eveningBtn.setOnClickListener {
             binding.geneetingText.text = getString(R.string.good_evening_text)
         }
-        binding.webViewBtn.setOnClickListener{
+        binding.webViewBtn.setOnClickListener {
             // WebView表示ページへ遷移
+            val intent =
+                Intent(this, WebViewActivity::class.java)    //intentインスタンスの生成(第二引数は遷移先のktファイル名)
+            startActivity(intent)
+            android.util.Log.d("MainActivity", " WebViewActivity start★")
         }
     }
 }
