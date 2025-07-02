@@ -1,4 +1,4 @@
-# android_study
+# exactly_10_seconds_game_android_app
 
 <div id="top"></div>
 
@@ -21,13 +21,15 @@
 
 ## プロジェクト名
 
-多言語で挨拶するアプリ
+10秒ジャストで止めるゲームアプリ
+
 
 <!-- プロジェクトについて -->
 
 ## プロジェクトについて
 
-Android端末の言語設定に応じた言語で、朝/昼/夜の挨拶を表示するアプリを実装
+
+画面を見ずに10秒ジャストでタイマーを止めるゲームをするアプリを実装
 
 <!-- プロジェクトの概要を記載 -->
 
@@ -65,7 +67,7 @@ https://www.genz.jp/useful_information/android_size_quickreferencematrix/#galaxy
     - Windows 11 Home
     - 64 ビット オペレーティング システム、x64 ベース プロセッサ
 - Android Studioバージョン
-    - Android Studio Ladybug | 2024.2.1 Patch 2!
+    - Android Studio Ladybug | 2024.2.1 Patch 2
     ![image](https://github.com/user-attachments/assets/15108b1c-bfb3-4dce-b23e-c197bc501404)
 
 
@@ -73,13 +75,13 @@ https://www.genz.jp/useful_information/android_size_quickreferencematrix/#galaxy
 
 ### アプリ画面
 
-| 言語設定 | アプリ起動時 |「朝」のボタン押下時|「昼」のボタン押下時|「夜」のボタン押下時|
-|------|--------|--------|--------|--------|
-|![Screenshot_20241223_235139_Settings](https://github.com/user-attachments/assets/8ef80b1f-2c4d-4d40-9eaf-75c82319a854)|![Screenshot_20241223_235135_My Application](https://github.com/user-attachments/assets/70ef6558-bb49-4128-8649-60939af5b5fd)|![Screenshot_20241223_235144_My Application](https://github.com/user-attachments/assets/8b86ba31-0e3b-4da6-99c2-b29e0483ca2f)|![Screenshot_20241223_235147_My Application](https://github.com/user-attachments/assets/23ff331d-78b6-4a4f-a448-c0881fce85e9)|![Screenshot_20241223_235155_My Application](https://github.com/user-attachments/assets/2767af5d-4d60-436b-a3a2-c80f300e462f)|
-|![Screenshot_20241223_235205_Settings](https://github.com/user-attachments/assets/26fe32d1-f40c-4a03-afdb-4e95b355f21b)|![Screenshot_20241223_235210_My Application](https://github.com/user-attachments/assets/f69374da-7b8c-4bae-ad51-35d4435cb470)|![Screenshot_20241223_235216_My Application](https://github.com/user-attachments/assets/c8f80c11-9055-4d4e-a0d6-5acb113b9850)|![Screenshot_20241223_235219_My Application](https://github.com/user-attachments/assets/e574ac09-6985-4a09-b03c-9c8214b386f7)|![Screenshot_20241223_235224_My Application](https://github.com/user-attachments/assets/ce5658b0-f61a-4c82-a278-b98d65e5c83f)|
-|![Screenshot_20241223_235237_Settings](https://github.com/user-attachments/assets/73267259-6e10-4323-aaac-3fbe71bdf9a7)|![Screenshot_20241223_235242_My Application](https://github.com/user-attachments/assets/c0abed41-6fd5-4040-9e73-485bf5abcb88)|![Screenshot_20241223_235300_My Application](https://github.com/user-attachments/assets/0ebecdd2-50c1-4475-9938-ac233775c0c3)|![Screenshot_20241223_235245_My Application](https://github.com/user-attachments/assets/9dcca34f-3bc8-45e1-9ef3-5c47d4a6c687)|![Screenshot_20241223_235256_My Application](https://github.com/user-attachments/assets/f65258c1-5c3c-4be8-acc0-257858287e0c)|
+| アプリ起動時 |スタートボタン押下時|ストップボタン押下時<br>9.5秒未満|ストップボタン押下時<br>9.5秒以上かつ10秒未満|ストップボタン押下時<br>10秒ちょうど|ストップボタン押下時<br>10秒超過かつ10.5秒以下|ストップボタン押下時<br>10.5秒超過|リトライボタン押下時|
+|------|--------|--------|--------|--------|------|--------|--------|
+|![Screenshot_20250117_011326_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/4e2440d9-c7e5-468c-be85-89686eef7bfc)|![Screenshot_20250117_011329_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/a1755000-a19c-41f1-9f43-ced56fd29a5c)|![Screenshot_20250117_011448_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/f57428f4-fc47-438d-9251-f67946d166b1)|![Screenshot_20250117_011423_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/ceccd616-7765-4619-bf0d-580ed8b7b172)|![Screenshot_20250117_011346_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/3ad21bb8-64e9-4b1a-90cb-b5bab454d25a)|![Screenshot_20250117_011443_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/611ad2e3-33a9-4d78-9856-f2afffe17e63)|![Screenshot_20250117_011531_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/8b4d0bf7-9422-4d7a-9987-2d7000b178ce)|![Screenshot_20250117_011536_exactly_10_seconds_game_android_app](https://github.com/user-attachments/assets/d13aaf7e-d681-499b-ac4f-6cab2f2dbbbe)|
 
 
-### READMEファイル参考
+## 画面遷移＆画面イメージ図
+https://www.figma.com/design/LiaE4Ot2XwJdX698Pt7pWt/10%E7%A7%92%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%88%E3%81%A7%E6%AD%A2%E3%82%81%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0_AndroidApp?node-id=0-1&p=f&t=d2l0FqmzNADbf8hp-0
 
+## READMEファイル参考
 https://qiita.com/shun198/items/c983c713452c041ef787
