@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebView
@@ -7,6 +8,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class WebViewActivity : AppCompatActivity() {
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         android.util.Log.d("WebViewActivity", " WebViewActivity onCreate★")
@@ -20,7 +22,8 @@ class WebViewActivity : AppCompatActivity() {
         }
 
         val myWebView: WebView = findViewById(R.id.webView)
-        myWebView.loadUrl("https://www.example.com")
+        myWebView.settings.javaScriptEnabled = true
+        myWebView.loadUrl("https://x.com")
 
     }
 }
