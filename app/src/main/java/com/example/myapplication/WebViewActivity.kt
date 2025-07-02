@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.webkit.WebView
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
@@ -17,5 +18,9 @@ class WebViewActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)  //intentインスタンスの生成(第二引数は遷移先のktファイル名)
             startActivity(intent)
         }
+
+        val myWebView: WebView = findViewById(R.id.webView)
+        myWebView.loadUrl("https://www.example.com")
+
     }
 }
