@@ -8,5 +8,5 @@
     <string name="afternoon_text">"L' apres-midi"</string>
     <string name="evening_text">Le soir</string>
     <string name="web_view_button_text">WebViewScreen</string>
-    <string name="back_greetings_screen">back to greetings in multiple screen</string>
+    <string name="back_greetings_screen">Don\'t post!\n(back to greetings in multiple screen)</string>
 </resources>

@@ -8,5 +8,5 @@
     <string name="afternoon_text">昼</string>
     <string name="evening_text">夜</string>
     <string name="web_view_button_text">WebView表示画面</string>
-    <string name="back_greetings_screen">挨拶画面へ戻る</string>
+    <string name="back_greetings_screen">ポスト禁止\n（挨拶画面へ戻る）</string>
 </resources>
