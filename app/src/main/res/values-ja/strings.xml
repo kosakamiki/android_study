@@ -7,4 +7,5 @@
     <string name="morning_text">朝</string>
     <string name="afternoon_text">昼</string>
     <string name="evening_text">夜</string>
+    <string name="web_view_button_text">WebView表示画面</string>
 </resources>

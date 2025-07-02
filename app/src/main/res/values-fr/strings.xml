@@ -7,4 +7,5 @@
     <string name="morning_text">Le matin</string>
     <string name="afternoon_text">"L' apres-midi"</string>
     <string name="evening_text">Le soir</string>
+    <string name="web_view_button_text">WebViewScreen</string>
 </resources>

@@ -32,5 +32,8 @@ class MainActivity : AppCompatActivity() {
         binding.eveningBtn.setOnClickListener {
             binding.geneetingText.text = getString(R.string.good_evening_text)
         }
+        binding.webViewBtn.setOnClickListener{
+            // WebView表示ページへ遷移
+        }
     }
 }
